@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(17, 66, 99, 0.425);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -4px 1px rgba(17, 66, 99, 0.479);
+    color: rgb(5, 5, 5);
+}
+#cardsContainer{
+    width: 1100px;
+    height: 400px;
+    border: 2px solid rgba(17, 66, 99, 0.658);
+    margin: auto;
+    display: flex;
+    opacity: 0;
+}

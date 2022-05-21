@@ -1,0 +1,29 @@
+{
+    "fruitsArray": [{
+            "img": "img\\watermelon.jpg",
+            "name": "watermelon",
+            "price": "39.9"
+        },
+        {
+            "img": "img\\pineapple.jpg",
+            "name": "pineapple",
+            "price": "20.90"
+        },
+        {
+            "img": "img\\melon.jpg",
+            "name": "melon",
+            "price": "15.90"
+        },
+        {
+            "img": "img\\grapes.jpg",
+            "name": "grapes",
+            "price": "34.9"
+        },
+         {
+            "img": "img\\mango.jpg",
+            "name": "mango",
+            "price": "40.9"
+        }
+
+    ]
+}
