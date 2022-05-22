@@ -10,25 +10,45 @@ h1{
 }
 #cardsContainer{
     width: 1200px;
-    height: 600px;
+    height: 360px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     opacity: 0;
-}
-.fruitsImg{
-    width: 300px;
-    height: 250px;
-    border-radius: 7px;
-}
-.fruitsName{
-    font-size: 30px;
-
 }
 .card{
     border: 2px solid rgba(17, 66, 99, 0.658);
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    background-color: rgba(17, 66, 99, 0.527);
+    background-color: rgba(21, 70, 102, 0.13);
+}
+.fruitsImg{
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+}
+.fruitsName{
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: -4px 1px rgba(17, 66, 99, 0.479);
+}
+.fruitsPrice{
+    font-size: 23px;
+    color: rgb(114, 11, 11);
+    font-weight: bold;
+}
+.fruitsBtn{
+    background-color: rgb(114, 11, 11);
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.fruitsBtn:hover{
+    background-color: rgb(61, 167, 40);
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 17px;
 }
