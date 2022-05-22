@@ -57,3 +57,26 @@ function start(obj) {
             cardsContainer.style.opacity = 1;
         }, 1000);
         }
+
+        document.addEventListener("click",btnCheck);
+        let message = (json, evt)=>{
+          if(evt.path[1].innerText.includes("watermelon")){
+          alert(`There is a discount of ${json.watermelon}On the product!`);
+        } else if(evt.path[1].innerText.includes("pineapple")){
+          alert(`There is a discount of ${json.pineapple}On the product!`);
+        } else if(evt.path[1].innerText.includes("mango")){
+          alert(`There is a discount of ${json.mango}On the product!`);
+        }else{
+          alert(`Sorry there is no discount for this product`);
+        }
+        };
+
+        function btnCheck(event){
+          let element=event.target;
+          let json;
+          if (element.classList[0] === "fruitsBtn") {
+            fetch("/discount.json")
+              .then((response) => response.json())
+              .then((data) => message(data, event));
+          }
+        }
